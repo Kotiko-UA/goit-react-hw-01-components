@@ -1,9 +1,11 @@
 import { Item, List, Title, Wrapper } from './Statistics.styled';
 
 export const Statistics = ({ statsData, title }) => {
+  console.log(title);
   return (
     <Wrapper>
-      <Title>{title}</Title>
+      {title && <Title>{title}</Title>}
+
       <List>
         {statsData.map(data => {
           return (
