@@ -1,7 +1,6 @@
 import { Item, List, Title, Wrapper } from './Statistics.styled';
 
 export const Statistics = ({ statsData, title }) => {
-  console.log(title);
   return (
     <Wrapper>
       {title && <Title>{title}</Title>}
