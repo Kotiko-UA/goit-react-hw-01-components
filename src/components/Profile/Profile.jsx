@@ -1,10 +1,10 @@
-import { Wrapper, Text, List, Item } from './Profile.styled';
+import { Wrapper, Text, List, Item, Img } from './Profile.styled';
 
 export const Profile = ({ dataUser }) => {
   return (
     <Wrapper>
       <div>
-        <img src={dataUser.avatar} alt={dataUser.username} />
+        <Img src={dataUser.avatar} alt={dataUser.username} />
         <Text>
           <b>{dataUser.username}</b>
         </Text>

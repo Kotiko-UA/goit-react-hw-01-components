@@ -9,6 +9,13 @@ export const Wrapper = styled.div`
   padding: 20px 15px;
 `;
 
+export const Img = styled.img`
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+`;
+
 export const Text = styled.p`
   padding: 0;
   margin: 0;
