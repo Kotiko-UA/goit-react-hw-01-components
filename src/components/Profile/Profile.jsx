@@ -1,5 +1,4 @@
 export const Profile = ({ dataUser }) => {
-  console.log(dataUser);
   return (
     <div>
       <div>
